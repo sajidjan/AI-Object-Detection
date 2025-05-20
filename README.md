@@ -22,7 +22,7 @@ This project demonstrates object detection using a pre-trained TensorFlow model 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/ObjectDetection.git
+   git clone https://github.com/sajidjan/ObjectDetection.git
    cd ObjectDetection
    ```
 
