@@ -2,6 +2,8 @@
 
 This project demonstrates object detection using a pre-trained TensorFlow model (SSD MobileNet V2) and OpenCV. It includes a Python script for running detections on images and a simple web interface with a dark theme.
 
+![screencapture-127-0-0-1-5000-2025-05-21-03_28_14](https://github.com/user-attachments/assets/1553edcf-8579-4715-8f58-ee38fefca059)
+
 ## Features
 
 - Detects objects in images using TensorFlow and OpenCV
