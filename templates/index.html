@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1>Upload an Image for Object Detection</h1>
+<div class="upload-section">
+    <form id="upload-form" method="POST" enctype="multipart/form-data">
+        <label for="image" class="upload-box">
+            <span>📁 Drag & Drop or Click to Upload</span>
+            <input type="file" name="image" id="image" accept="image/*" hidden onchange="previewImage(event)">
+        </label>
+        <button type="submit" class="btn">Analyze</button>
+    </form>
+    <div id="loader" class="loader" style="display:none;">Analyzing...</div>
+    <div class="preview">
+        {% if filename %}
+        <div class="thumb">
+            <p>Uploaded Thumbnail:</p>
+            <img src="/uploads/{{ filename }}" alt="Uploaded Image" class="thumbnail">
+        </div>
+
+        {% if detections %}
+        <div class="detections">
+            <p>Object Detected:</p>
+            <ul>
+                {% for item in detections %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="result">
+            <p>Result Image (Actual Size):</p>
+            <img src="/results/{{ filename }}" alt="Result Image" class="result-image">
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+    function previewImage(event) {
+        // Client-side preview not needed as server provides the images after upload
+    }
+</script>
+
+
+{% endblock %}

@@ -1,0 +1,182 @@
+/* Ensure the body has a dark theme */
+body.dark-theme {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container for the upload section */
+.upload-section {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Styling for the upload box */
+.upload-box {
+    border: 2px dashed #ffffff;
+    padding: 40px;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-box:hover {
+    background-color: #3a3a3a;
+}
+
+/* Button styling */
+.btn {
+    background-color: #5a67d8;
+    border: none;
+    padding: 12px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Loader styling */
+.loader {
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+/* Preview section styling */
+.preview {
+    margin-top: 20px;
+}
+
+/* Thumbnail styling */
+.thumbnail {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Result image styling */
+.result-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Additional styling for text */
+.thumb p, .result p {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.thumb, .result, .detections {
+    margin-top: 10px;
+}
+
+.detections {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #242424;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.detections p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.detections ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.detections li {
+    background-color: #2d2d2d;
+    padding: 8px 12px;
+    margin: 4px 0;
+    border-left: 4px solid #5a67d8;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+
+
+/* body.dark-theme {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.upload-box {
+    border: 2px dashed #aaa;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 15px;
+    background-color: #2c2c2c;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.upload-box:hover {
+    background-color: #3a3a3a;
+}
+
+.btn {
+    background-color: #5a67d8;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.loader {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.preview {
+    margin-top: 20px;
+}
+
+.preview img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.thumb, .result {
+    margin-top: 10px;
+} */
